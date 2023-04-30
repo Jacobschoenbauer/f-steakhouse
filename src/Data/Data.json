@@ -1,0 +1,35 @@
+{
+"title": "Jacob Home",
+"about": {
+    "logo": "img/logo2.svg",
+    "contact": "Jacob",
+    "address": {
+        "street": "16190 Inglewood Drive  ",
+        "city": "Lakeville",
+        "state": "MN",
+        "zip": "55044",
+        "google-api": "AIzaSyCz0CP-456jIxMFjce2NZkjUgZdUfDDnpA",
+        "map-url": "https://www.google.com/maps/place/16190+Inglewood+Dr,+Lakeville,+MN+55044/@44.7146839,-93.2633409,17z/data=!3m1!4b1!4m6!3m5!1s0x87f639e17999c59b:0xcbec496830a510ac!8m2!3d44.7146801!4d-93.2611522!16s%2Fg%2F11c23lq847"
+    },
+    "title": "UNHEARD OF PROFESSIONAL PRICES!",
+    "description": "Best Place in town ",
+    "telephone": "651-285-8336",
+    "location": "https://goo.gl/maps/6rWnbt5Doxnpeac7A",
+    "email": "jhwt65@gmail.com",
+    "facebook": "https://www.facebook.com/jacob.schoenbauer",
+    "instagram": ""
+},
+"allProduct":[
+    "",
+    "",
+    "",
+    "<a> href='tel:651-282-8336'>(651)285-8336</a>"
+],
+"menu":[
+    "Pizza ",
+    "Hot Dog ",
+    "Watermellon ",
+    "Orange "
+]
+
+}

@@ -1,0 +1,6 @@
+.mainImage {
+  height: 200px;
+}
+/*media to change for differnt screens*/
+@media screen and (max-width: 1200px) {
+}
