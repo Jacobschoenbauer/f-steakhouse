@@ -1,5 +1,34 @@
-.mainImage {
+.mainImage, .food1{
   height: 200px;
+}
+.mtitle{
+  color: azure;
+}
+.navbox{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.navgate{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: center;
+  
+}
+.nav{
+  display: flex;
+}
+.home, .menu, .location, .about, .specials, .phone{
+  margin: 15px;
+  color: azure;
+  text-decoration: none;
+}
+.food1, .food2, .food3,.food4{
+  width: 100%;
+}
+.fpics{
+  display: flex;
 }
 /*media to change for differnt screens*/
 @media screen and (max-width: 1200px) {
