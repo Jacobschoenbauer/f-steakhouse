@@ -14,9 +14,10 @@ import About from "./pages/About"
 function App() {
   return (
     <div>
-      <Header/>
+      
       <Router>
       <Nav />
+      <Header/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
