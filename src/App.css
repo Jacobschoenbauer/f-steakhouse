@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   background-color: black;
+  flex-wrap: wrap;
 }
 .navgate{
   display: flex;
@@ -19,7 +20,7 @@
 .nav{
   display: flex;
 }
-.home, .menu, .location, .about, .specials, .phone{
+.home, .menu, .location, .about, .specials, .num{
   margin: 15px;
   color: azure;
   text-decoration: none;
@@ -30,6 +31,19 @@
 .fpics{
   display: flex;
 }
+.steakguy1{
+  width: 150px;
+}
 /*media to change for differnt screens*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
+  .food1, .food2, .food3,.food4{
+    display: none;
+  }
+  .navbox{
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+
 }

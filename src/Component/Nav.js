@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import steakguy1 from "./pic/steakguy1.jpg"
 import "../App.css";
 function Nav() {
   return (
     <div className="navbox">
       <h1 className="mtitle">Farmington Steakhouse</h1>
-
+      <div ><img className="steakguy1" src={steakguy1} alt="steakguy1"/></div>
       <section className="navgate">
         <div className="nav">
         <Link className="home" to="/">Home</Link>
