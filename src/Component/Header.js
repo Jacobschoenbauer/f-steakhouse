@@ -8,9 +8,9 @@ function Header() {
   return (
     <div className="fpics">
      <div ><img className="food1" src={food1} alt="steak1"/></div>
-     <div ><img className="food1" src={food2} alt="steak1"/></div>
-     <div ><img className="food1" src={food3} alt="steak1"/></div>
-     <div ><img className="food1" src={food4} alt="steak1"/></div>
+     <div ><img className="food2" src={food2} alt="steak1"/></div>
+     <div ><img className="food3" src={food3} alt="steak1"/></div>
+     <div ><img className="food4" src={food4} alt="steak1"/></div>
     </div>
   );
 }

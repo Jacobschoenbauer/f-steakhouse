@@ -1,49 +1,60 @@
-.mainImage, .food1{
+.mainImage,
+.food1 {
   height: 200px;
 }
-.mtitle{
+.mtitle {
   color: azure;
 }
-.navbox{
+.navbox {
   display: flex;
   justify-content: space-between;
   background-color: black;
   flex-wrap: wrap;
 }
-.navgate{
+.navgate {
   display: flex;
   flex-direction: column-reverse;
   align-items: flex-end;
   justify-content: center;
-  
 }
-.nav{
+.nav {
   display: flex;
 }
-.home, .menu, .location, .about, .specials, .num{
+.home,
+.menu,
+.location,
+.about,
+.specials,
+.num {
   margin: 15px;
   color: azure;
   text-decoration: none;
 }
-.food1, .food2, .food3,.food4{
+.food1,
+.food2,
+.food3,
+.food4 {
   width: 100%;
+  height: 200px;
 }
-.fpics{
+.fpics {
   display: flex;
+
+  justify-content: center;
 }
-.steakguy1{
+.steakguy1 {
   width: 150px;
 }
 /*media to change for differnt screens*/
 @media screen and (max-width: 900px) {
-  .food1, .food2, .food3,.food4{
+  .food1,
+  .food2,
+  .food3,
+  .food4 {
     display: none;
   }
-  .navbox{
+  .navbox {
     flex-direction: column;
     align-items: center;
-   
   }
-  
-
 }
