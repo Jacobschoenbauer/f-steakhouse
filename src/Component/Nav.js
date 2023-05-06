@@ -1,11 +1,23 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import data from "../Data/Data.json";
 import steakguy1 from "./pic/steakguy1.jpg"
 import "../App.css";
-function Nav() {
+export default class Nav extends Component {
+ 
+  render() {
+    
+    const {
+     about:{
+      title,
+    telephone,
+  logo},
+    } = data;
+    
+
   return (
     <div className="navbox">
-      <h1 className="mtitle">Farmington Steakhouse</h1>
+      <h1 className="mtitle"><div>{title}</div></h1>
       <div ><img className="steakguy1" src={steakguy1} alt="steakguy1"/></div>
       <section className="navgate">
         <div className="nav">
@@ -15,13 +27,13 @@ function Nav() {
 
         <Link className="location" to="/map">Location</Link>
 
-        <Link className="specials" to="/specials">Specials</Link>
+        
 
-        <Link className="about" to="/about">About Us</Link>
+        
         </div>
         <div className="num">
-          <a classname="phone" href="tel:651-402-6956">
-            651-402-6956
+          <a classname="phone" href="tel:{telephone}">
+            {telephone}
           </a>
         </div>
       </section>
@@ -29,4 +41,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+}

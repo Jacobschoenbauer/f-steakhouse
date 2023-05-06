@@ -5,28 +5,24 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Component/Header";
 import Nav from "./Component/Nav";
-import Footer from "./Component/Footer"
+import Footer from "./Component/Footer";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
-import Specials from "./pages/Specials";
 import Location from "./pages/Map";
-import About from "./pages/About"
+
 function App() {
   return (
     <div>
-      
       <Router>
-      <Nav />
-      <Header/>
+        <Nav />
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
-          <Route path="/specials" element={<Specials />} />
           <Route path="/map" element={<Location />} />
-          <Route path="/about" element={<About />} />
         </Routes>
       </Router>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
