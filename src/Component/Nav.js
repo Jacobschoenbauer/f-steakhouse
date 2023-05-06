@@ -11,7 +11,7 @@ export default class Nav extends Component {
      about:{
       title,
     telephone,
-  logo},
+    },
     } = data;
     
 
@@ -32,7 +32,7 @@ export default class Nav extends Component {
         
         </div>
         <div className="num">
-          <a classname="phone" href="tel:{telephone}">
+          <a className="phone" href="tel:651-463-3726">
             {telephone}
           </a>
         </div>
