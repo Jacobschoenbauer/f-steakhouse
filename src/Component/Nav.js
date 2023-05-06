@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import data from "../Data/Data.json";
-import steakguy1 from "./pic/steakguy1.jpg"
+import logo from "./pic/steakguy1.jpg"
 import "../App.css";
 export default class Nav extends Component {
  
@@ -18,7 +18,7 @@ export default class Nav extends Component {
   return (
     <div className="navbox">
       <h1 className="mtitle"><div>{title}</div></h1>
-      <div ><img className="steakguy1" src={steakguy1} alt="steakguy1"/></div>
+      <div ><img className="logo1" src={logo} alt="logo1"/></div>
       <section className="navgate">
         <div className="nav">
         <Link className="home" to="/">Home</Link>

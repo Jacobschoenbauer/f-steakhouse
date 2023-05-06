@@ -3,12 +3,12 @@
   height: 200px;
 }
 .mtitle {
-  color: azure;
+  color: #f9f7dc;
 }
 .navbox {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #763c00;
   flex-wrap: wrap;
 }
 .navgate {
@@ -27,18 +27,17 @@
 .specials,
 .num {
   margin: 15px;
-  color: azure;
+  color: #f9f7dc;
   text-decoration: none;
 }
-.phone{
-  color:azure !important;
+.phone {
+  color: #f9f7dc!important;
 }
 
-
-.food1,
-.food2,
-.food3,
-.food4 {
+.image1,
+.image2,
+.image3,
+.image4 {
   width: 100%;
   height: 200px;
 }
@@ -47,15 +46,15 @@
 
   justify-content: center;
 }
-.steakguy1 {
+.logo1 {
   width: 150px;
 }
 /*media to change for differnt screens*/
 @media screen and (max-width: 900px) {
-  .food1,
-  .food2,
-  .food3,
-  .food4 {
+  .image1,
+  .image2,
+  .image3,
+  .image4 {
     display: none;
   }
   .navbox {
