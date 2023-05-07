@@ -26,10 +26,7 @@ export default class Nav extends Component {
         <Link className="menu" to="/menu">Menu</Link>
 
         <Link className="location" to="/map">Location</Link>
-
-        
-
-        
+ 
         </div>
         <div className="num">
           <a className="phone" href="tel:651-463-3726">
