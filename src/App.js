@@ -12,7 +12,7 @@ import Location from "./pages/Map";
 
 function App() {
   return (
-    <div>
+    <div className="main">
       <Router>
         <Nav />
         <Header />

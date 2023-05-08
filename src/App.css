@@ -1,9 +1,12 @@
+.main{
+  background-color: #887BB0;
+}
 .mainImage,
 .food1 {
   height: 200px;
 }
 .mtitle {
-  color: #a37b62;
+  color: #FBEE0F;
   display: flex;
   align-items: center;
   margin: 0px 0px 0px 80px;
@@ -13,7 +16,7 @@
 .navbox {
   display: flex;
   justify-content: space-between;
-  background-color: #a9a7a3;
+  background-color: #090A0E;
   flex-wrap: wrap;
 }
 .navgate {
@@ -33,18 +36,15 @@
 .num {
   margin: 15px;
   font-size: 20px;
-  color: #a37b62;
+  color: #FBEE0F;
   text-decoration: none;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .phone {
-  color: #a37b62!important;
+  color: #FBEE0F!important;
 }
 
-.image1,
-.image2,
-.image3,
-.image4 {
+.header-images {
   width: 100%;
   height: 200px;
 }
@@ -55,6 +55,7 @@
 }
 .logo1 {
   width: 150px;
+  border-radius: 50%;
 }
 /*media to change for differnt screens*/
 @media screen and (max-width: 1000px) {

@@ -28,10 +28,11 @@
     "Orange "
 ],
 "images":[
-    "./pic/steak1.jpg",
-    "./pic/steak2.jpg",
-    "./pic/gyro1.jpg",
-    "./pic/chicken1.jpg"
+   {"alt":"Best steak in Farmington", "src":"./pic/steak1.jpg" },
+   {"alt":"Best steak in Farmington", "src":"./pic/steak2.jpg" },
+   {"alt":"Best gyro in Farmington", "src":"./pic/gyro1.jpg" },
+   {"alt":"Best chicken in Farmington", "src":"./pic/chicken1.jpg" }
+    
 ]
 
 
