@@ -1,7 +1,7 @@
 {
 
 "about": {
-    "logo": "./pic/steakguy1.jpg",
+    "logoMan": {"alt":"Steak Guy","src":"./pic/steakguy1.jpg"},
     "contact": "Jacob",
     "address": {
         "street": "16190 Inglewood Drive  ",
