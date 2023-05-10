@@ -1,7 +1,7 @@
 {
 
 "about": {
-    "logoMan": {"alt":"Steak Guy","src":"./pic/steakguy1.jpg"},
+    
     "contact": "Jacob",
     "address": {
         "street": "16190 Inglewood Drive  ",
@@ -33,6 +33,9 @@
    {"alt":"Best gyro in Farmington", "src":"./pic/gyro1.jpg" },
    {"alt":"Best chicken in Farmington", "src":"./pic/chicken1.jpg" }
     
+],
+"logo":[
+ {"alt":"Steak Guy","src":"./pic/steakguy1.jpg"}
 ]
 
 

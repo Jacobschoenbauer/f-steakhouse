@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import data from "../Data/Data.json";
 import { Link } from "react-router-dom";
 import "../App.css";
-const logo = data.about.logoMan(({ alt, src }) => (
+const logo = data.logo.map(({ alt, src }) => (
   <div>
     <img className="logo" src={src} alt={alt} />
   </div>
@@ -19,7 +19,7 @@ export default class Nav extends Component {
         <h1 className="mtitle">
           <div>{title}</div>
         </h1>
-        <div>{logo}</div>
+        <div className="logo">{logo}</div>
         <section className="navgate">
           <div className="nav">
             <Link className="home" to="/">
