@@ -1,22 +1,23 @@
-.main{
-  background-color: #887BB0;
+.main {
+  background-color: #887bb0;
 }
 .mainImage,
 .food1 {
   height: 200px;
 }
 .mtitle {
-  color: #FBEE0F;
+  color: #fbee0f;
   display: flex;
   align-items: center;
   margin: 0px 0px 0px 80px;
   font-size: 50px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .navbox {
   display: flex;
   justify-content: space-between;
-  background-color: #090A0E;
+  background-color: #090a0e;
   flex-wrap: wrap;
 }
 .navgate {
@@ -36,12 +37,13 @@
 .num {
   margin: 15px;
   font-size: 20px;
-  color: #FBEE0F;
+  color: #fbee0f;
   text-decoration: none;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .phone {
-  color: #FBEE0F!important;
+  color: #fbee0f !important;
 }
 
 .header-images {
@@ -59,18 +61,14 @@
 }
 /*media to change for differnt screens*/
 @media screen and (max-width: 1000px) {
-  .image1,
-  .image2,
-  .image3,
-  .image4 {
+  .fpics {
     display: none;
   }
   .navbox {
     flex-direction: column;
     align-items: center;
   }
-  .navgate{
+  .navgate {
     display: flex;
-
   }
 }
